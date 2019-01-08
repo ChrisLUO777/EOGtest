@@ -9,8 +9,11 @@ EditorBuildSettings:
     path: Assets/GoogleVR/Demos/Scenes/Refer.unity
     guid: e302fa9ff22de404a831c9ebe7778699
   - enabled: 1
-    path: Assets/GoogleVR/Demos/Scenes/Dome.unity
+    path: Assets/GoogleVR/Demos/Scenes/FixedLight.unity
     guid: bd8e870382cba1744a8da8c6255f1fcd
   - enabled: 1
-    path: Assets/GoogleVR/Demos/Scenes/Rorschach.unity
-    guid: b690ce00bbafbdd4dbd0ede463bbbe86
+    path: Assets/GoogleVR/Demos/Scenes/CityStreet.unity
+    guid: c17770bdb491f314f995422ed2a4123e
+  - enabled: 1
+    path: Assets/GoogleVR/Demos/Scenes/Illusion.unity
+    guid: 186b5f82e6dfa5b4db8c3f0ddc3cf5a5
