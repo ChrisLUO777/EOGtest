@@ -31,7 +31,7 @@ public class FixedLightScript : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if (intervaltime < 0) {
-            intervaltime = 1.25f;
+            intervaltime = 0.7f;
 			if (index < 13) {
 				index++;
 			} else {
