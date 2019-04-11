@@ -9,7 +9,7 @@ public class FixedLightScript : MonoBehaviour {
 	private int index=0;
 	// Use this for initialization
 	void Start () {
-		intervaltime=Random.Range (1.0f, 1.5f);
+		intervaltime=1.25f;
 		positions [0] = new Vector3 (-1.753f,5.0f,-0.737f);
 		positions [1] = new Vector3 (-1.246f,5.0f,-0.346f);
 		positions [2] = new Vector3 (-0.641f,5.0f,-0.102f);
@@ -31,7 +31,7 @@ public class FixedLightScript : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if (intervaltime < 0) {
-			intervaltime = Random.Range (1.0f, 1.5f);
+            intervaltime = 1.25f;
 			if (index < 13) {
 				index++;
 			} else {
