@@ -9,7 +9,7 @@ public class FixedLightScript : MonoBehaviour {
 	private int index=0;
 	// Use this for initialization
 	void Start () {
-		intervaltime=1.25f;
+		intervaltime=0.7f;
 		positions [0] = new Vector3 (-1.753f,5.0f,-0.737f);
 		positions [1] = new Vector3 (-1.246f,5.0f,-0.346f);
 		positions [2] = new Vector3 (-0.641f,5.0f,-0.102f);
