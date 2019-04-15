@@ -32,7 +32,7 @@ public class FixedLightScript : MonoBehaviour {
 	void Update () {
 		if (intervaltime < 0) {
             intervaltime = 0.7f;
-			if (index < 13) {
+			if (index < 12) {
 				index++;
 			} else {
 				index = 0;

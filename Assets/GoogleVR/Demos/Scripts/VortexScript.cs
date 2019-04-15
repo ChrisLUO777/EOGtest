@@ -31,7 +31,7 @@ public class VortexScript : MonoBehaviour {
 		this.GetComponent<Transform> ().Rotate (0.0f,0.0f,7.0f);
 		if (intervaltime < 0) {
 			intervaltime = 0.7f;
-			if (index < 9) {
+			if (index < 8) {
 				index++;
 			} else {
 				index = 0;

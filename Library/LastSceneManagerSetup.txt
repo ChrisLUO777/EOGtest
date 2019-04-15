@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/GoogleVR/Demos/Scenes/Illusion.unity
+- path: Assets/GoogleVR/Demos/Scenes/FixedLight.unity
   isLoaded: 1
   isActive: 1

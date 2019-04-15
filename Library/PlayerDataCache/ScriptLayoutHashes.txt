@@ -106,6 +106,7 @@ ff05dcdf90651c3d98a9cad3df5e471e UnityEngine.Timeline.dll:UnityEngine.Timeline.C
 92d7a83ea3c7404e484f3b2eed421855 UnityEngine.Timeline.dll:UnityEngine.Timeline.GroupTrack
 92d7a83ea3c7404e484f3b2eed421855 UnityEngine.Timeline.dll:UnityEngine.Timeline.PlayableTrack
 df374c01140c2d578bf70cbd60073d1d UnityEngine.Timeline.dll:UnityEngine.Timeline.TimelineAsset
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.VortexScript
 7596e1d3ea7cab0498399338977e65e4 Assembly-CSharp.dll:.Demo
 65ccc5e6c5329a006e5b4f0effd4ff6c Assembly-CSharp.dll:.GvrScrollSettings
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:GoogleVR.Demos.DemoSceneManager
@@ -208,4 +209,3 @@ b2945430dfd6bbdb5d77043b47bf85e7 Assembly-CSharp.dll:.GvrControllerReticleVisual
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.GvrXREventsSubscriber
 d885ad79a6ef5bfe2ce10637aac0b8a0 Assembly-CSharp.dll:GoogleVR.VideoDemo.AutoPlayVideo
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.FixedLightScript
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.VortexScript
