@@ -23,7 +23,6 @@ public class VortexScript : MonoBehaviour {
 		positions [7] = new Vector3 (-3.29f,1.0f,4.13f);
 		positions [8] = new Vector3 (3.58f,1.0f,4.13f);
 
-		this.GetComponent<Transform> ().position = positions [0];
 	}
 
 	// Update is called once per frame
@@ -31,14 +30,19 @@ public class VortexScript : MonoBehaviour {
 		this.GetComponent<Transform> ().Rotate (0.0f,0.0f,7.0f);
 		if (intervaltime < 0) {
 			intervaltime = 0.7f;
+			if (this.GetComponent<Transform> ().name.Equals("Quad"+index)) {
+				this.GetComponent<Transform> ().position=positions[index];
+			}
 			if (index < 8) {
 				index++;
 			} else {
 				index = 0;
 			}
-			this.GetComponent<Transform> ().position = positions [index];
 		} else {
 			intervaltime -= Time.deltaTime;
+			if (this.GetComponent<Transform> ().name.Equals("Quad"+index)) {
+				this.GetComponent<Transform> ().Translate (0, 0, 10 * Time.deltaTime);
+			}
 		}
 	}
 
